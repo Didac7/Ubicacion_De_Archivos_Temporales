@@ -1,1 +1,6 @@
 # Ubicacion_De_Archivos_Temporales
+* Windows: La carpeta temporal en Windows suele ser la siguiente: %TEMP% o %USERPROFILE%\AppData\Local\Temp. Puedes acceder rápidamente a ella escribiendo %TEMP% en la barra de direcciones del explorador de archivos.
+* Linux: En Linux, la ubicación de la carpeta temporal puede variar según la distribución y la configuración del sistema. Por lo general, se encuentra en /tmp o /var/tmp. Puedes acceder a la carpeta temporal escribiendo /tmp en la terminal o el explorador de archivos.
+* macOS: En macOS, la carpeta temporal se encuentra en /tmp o /var/folders. Al igual que en Linux, puedes acceder a ella escribiendo /tmp en la terminal o el Finder.
+* Android: En Android, la carpeta temporal se encuentra en el directorio /data/data/<nombre_de_paquete>/cache. Cada aplicación tiene su propia carpeta temporal dentro de su directorio de datos. Sin embargo, el acceso a esta carpeta requiere permisos de root en la mayoría de los casos.
+* iOS: En iOS, las aplicaciones están diseñadas para almacenar archivos temporales en su directorio de caché. Sin embargo, no hay una carpeta temporal específica en el sistema de archivos de iOS a la que se pueda acceder directamente. Los desarrolladores de aplicaciones iOS deben seguir las guías de Apple para administrar correctamente los archivos temporales de sus aplicaciones.
